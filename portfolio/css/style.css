@@ -1,0 +1,133 @@
+body {
+    text-align: center;
+    background-color: #f0f0f0;
+}
+
+.main {
+    display: flex;
+    justify-content: space-around;
+    /* text-align: center;
+    margin: auto 0px auto 0px;
+    padding: 0px; */
+
+
+}
+
+/* .main .leftSide, .rightSide, .middleSide{
+      width: 33%;
+    
+} */
+.leftSide p {
+    text-align: left;
+    width: 150px;
+    margin-left: 0px;
+    margin-right: 50px;
+}
+
+.rightSide p {
+    text-align: right;
+}
+
+.rightSide {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+hr {
+    width: 40%;
+
+
+}
+
+.rightSide hr {
+    margin-right: 0px;
+}
+
+.leftSide hr {
+    margin-left: 0px;
+}
+
+.rightSide h5 {
+    text-align: right;
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #820505;
+    opacity: 0.5;
+}
+
+.middleSide {
+
+    border: 2px solid #000;
+    border-radius: 272px;
+    height: 518px;
+    /* margin-left: 100px; */
+    /* background-color: #f0f0f0;
+    border: 1px solid gray;
+    border-radius: 5000px;
+    height: 500px;
+    width: 300px;
+    min-width: 300px;
+    max-width: 300px; */
+
+}
+
+/* .MidImg{
+    background-color: aqua;
+    border: 1px solid gray;
+    border-radius: 5000px;
+    height: 450px;
+    width: 275px;
+    vertical-align: baseline;
+    margin: 25px 0px; top and bottom=25 right and left=0
+} */
+.leftSide :hover {
+    color: rgb(0, 60, 0, 0.5);
+}
+
+.middleSide img {
+    border: 1px solid #000;
+    width: 350px;
+    border-radius: 250px;
+    margin-top: 25px;
+
+}
+
+.Bottom {
+    width: 100%;
+}
+
+footer {
+    background-color: white;
+    text-align: left;
+    padding: 20px;
+    color: #000;
+    margin: -8px;
+}
+
+/* 
+.button:hover {
+    color:  rgb(0, 60, 0, 0.5);
+    text-decoration: underline  ;
+}
+button {
+    color:  rgb(0, 60, 0);
+    width: 150px;
+    font-size: 30px;
+    
+}
+
+button:hover {
+    font-weight: bolder;
+}
+.span01:hover {
+    text-decoration: underline  ;
+}
+.span02:hover{
+    color: red;
+} */
+.rightSide :hover {
+    color: rgba(116, 231, 116, 0.5);
+}
